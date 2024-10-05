@@ -14,7 +14,7 @@ app.use("*", cache);
 
 app.route("/search", search);
 app.route("/title", title);
-app.route("/reviews", reviews);
+// app.route("/reviews", reviews);
 app.route("/user", userRoutes);
 app.route("/", index);
 
